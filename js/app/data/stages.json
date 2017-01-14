@@ -1,0 +1,332 @@
+[
+    {
+        "name": "75m",
+		"img": "75m.png",
+        "legal": false,
+        "dlc": false
+    },
+    {
+        "name": "Battlefield",
+		"img": "Battlefield.jpg",
+        "legal": true,
+        "dlc": false
+    },
+    {
+        "name": "Big Battlefield",
+		"img": "Big_Battlefield.jpg",
+        "legal": false,
+        "dlc": false
+    },
+    {
+        "name": "Boxing Ring Punch Out",
+		"img": "Boxing_Ring_Punch_Out.jpg",
+        "legal": false,
+        "dlc": false
+    },
+    {
+        "name": "Bridge Of Eldin",
+		"img": "Bridge_Of_Eldin.png",
+        "legal": false,
+        "dlc": false
+    },
+    {
+        "name": "Castle Siege",
+		"img": "Castle_Siege.jpg",
+        "legal": true,
+        "dlc": false
+    },
+    {
+        "name": "Coliseum",
+		"img": "Coliseum.jpg",
+        "legal": false,
+        "dlc": false
+    },
+    {
+        "name": "Delfino Plaza",
+		"img": "Delfino_Plaza.png",
+        "legal": true,
+        "dlc": false
+    },
+    {
+        "name": "Dream Land 64",
+		"img": "Dream_Land_64.png",
+        "legal": true,
+        "dlc": true
+    },
+    {
+        "name": "Duck Hunt Stage",
+		"img": "Duck_Hunt_Stage.jpg",
+        "legal": true,
+        "dlc": false
+    },
+	{
+        "name": "Final Destination",
+		"img": "Final_Destination.jpg",
+        "legal": true,
+        "dlc": false
+    },
+	{
+        "name": "Flat Zone X",
+		"img": "Flat_Zone_X.jpg",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Gamer",
+		"img": "Gamer.jpg",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Garden of Hope",
+		"img": "Garden_of_Hope.jpg",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Gaur Plain",
+		"img": "Gaur_Plain.png",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Halberd",
+		"img": "Halberd.jpg",
+        "legal": true,
+        "dlc": false
+    },
+	{
+        "name": "Hyrule Castle 64",
+		"img": "Hyrule_Castle_64.PNG",
+        "legal": false,
+        "dlc": true
+    },
+	{
+        "name": "Jungle Hijinxs",
+		"img": "Jungle_Hijinxs.jpg",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Kalos Pokemon League",
+		"img": "Kalos_Pokemon_League.jpg",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Congo Jungle 64",
+		"img": "Congo_Jungle_64.jpg",
+        "legal": true,
+        "dlc": false
+    },
+	{
+        "name": "Luigi's Mansion",
+		"img": "Luigis_Mansion.png",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Lylat Cruise",
+		"img": "Lylat_Cruise.png",
+        "legal": true,
+        "dlc": false
+    },
+	{
+        "name": "Mario Circuit",
+		"img": "Mario_Circuit.jpg",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Mario Circuit 8",
+		"img": "Mario_Circuit_8.jpg",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Mario Galaxy",
+		"img": "Mario_Galaxy.jpg",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Midgar",
+		"img": "Midgar.jpg",
+        "legal": false,
+        "dlc": true
+    },
+	{
+        "name": "Miiverse",
+		"img": "Miiverse.jpg",
+        "legal": true,
+        "dlc": true
+    },
+	{
+        "name": "Mushroom Kingdom",
+		"img": "Mushroom_Kingdom.jpg",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Norfair",
+		"img": "Norfair.png",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Onett",
+		"img": "Onett.jpg",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Orbital Gate Assault",
+		"img": "Orbital_Gate_Assault.jpg",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Pac-Land",
+		"img": "Pac_Land.jpg",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Palutena's Temple",
+		"img": "Palutenas_Temple.png",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Peach's Castle_64",
+		"img": "Peachs_Castle_64.PNG",
+        "legal": false,
+        "dlc": true
+    },
+	{
+        "name": "Pilotwings",
+		"img": "Pilotwings.jpg",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Pirate Ship",
+		"img": "Pirate_Ship.jpg",
+        "legal": false,
+        "dlc": true
+    },
+	{
+        "name": "Pokemon Stadium 2",
+		"img": "Pokemon_Stadium_2.jpg",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Port Town Aero Dive",
+		"img": "Port_Town_Aero_Dive.png",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Pyrosphere",
+		"img": "Pyrosphere.jpg",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Skyloft",
+		"img": "Skyloft.png",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Skyworld",
+		"img": "Skyworld.png",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Smashville",
+		"img": "Smashville.jpg",
+        "legal": true,
+        "dlc": false
+    },
+	{
+        "name": "Sukazu Castle",
+		"img": "Sukazu_Castle.png",
+        "legal": false,
+        "dlc": true
+    },
+	{
+        "name": "Super Mario Maker",
+		"img": "SuperMarioMaker.jpg",
+        "legal": false,
+        "dlc": true
+    },
+	{
+        "name": "Temple",
+		"img": "Temple.png",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "The Great Cave Offensive",
+		"img": "The_Great_Cave_Offensive.jpg",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Town and City",
+		"img": "Town_and_City.png",
+        "legal": true,
+        "dlc": false
+    },
+	{
+        "name": "Umbra Clock Tower",
+		"img": "Umbra_Clock_Tower.png",
+        "legal": false,
+        "dlc": true
+    },
+	{
+        "name": "Wii Fit Studio",
+		"img": "Wii_Fit_Studio.jpg",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Wily's Fortress",
+		"img": "Wilys_Fortress.png",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Windy Hill",
+		"img": "Windy_Hill.jpg",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Woolly World",
+		"img": "Woolly_World.jpg",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Wrecking Crew",
+		"img": "Wrecking_Crew.jpg",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Wuhu Island",
+		"img": "Wuhu_Island.jpg",
+        "legal": false,
+        "dlc": false
+    },
+	{
+        "name": "Yoshi's Island",
+		"img": "Yoshis_Island.png",
+        "legal": false,
+        "dlc": false
+    }
+]

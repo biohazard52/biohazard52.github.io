@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html ng-app="ssbt">
+    <head>
+            <title>SSB Tourney</title>
+            <link href="js/libs/angular-ui/angular-ui.css" rel="stylesheet" type="text/css"/>
+            <link href="js/libs/jqueryui/css/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+            <link href="js/libs/jqueryui/css/base/jquery.ui.all.css" rel="stylesheet" type="text/css"/>
+            <link href="css/style.css" rel="stylesheet" type="text/css"/>
+            <link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" >
+            <link href="css/jquery.mmenu.all.css" rel="stylesheet" type="text/css"/>
+            <link href="css/angular-toggle-switch-bootstrap.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body ng-controller="AppController">
+        <div class="page">
+            <div class="app-container">
+                <div class="reset-all">
+                    <a href="#settings" class="settingsLink"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
+                    <nav id="settings">
+                        <div>
+                            <div style="font-size: 24px">
+                                <label for="dlcm">Comp Maps Only</label>
+                                <input id="dlcm" type="checkbox" ng-model="compOnly"/>
+                            </div>
+                            <div style="font-size: 24px">
+                                <label for="dlcm">DLC Maps</label>
+                                <input id="dlcm" type="checkbox" ng-model="dlcMaps"/>
+                            </div>
+                            <div style="font-size: 24px">
+                                <label for="dlcc">DLC Chars</label>
+                                <input id="dlcc" type="checkbox" ng-model="dlcChars" />
+                            </div>
+                        </div>
+                    </nav>
+                    <button class="char-roll-btn" ng-click="rollAll()">ROLL ALL</button>
+                </div>
+                <div class="characters">
+                        <div class="char">
+                            <div class="char-img">
+                                <img ng-src="img/characters/{{char1.img ? char1.img : 'default.png'}}" />
+                            </div>
+                            <div class="char-name">
+                                {{char1.name}}
+                            </div>
+                            <div class="char-roll">
+                                <button class="char-roll-btn" ng-click="rollChar1()">ROLL</button>
+                            </div>
+                        </div>
+                        <div class="char-divide">
+                            <div class="char-img">
+                                <img ng-src="{{stage.img ? 'img/stages/'+stage.img : 'img/characters/default.png'}}" />
+                                <div class='char-divide-text'>
+                                    VS
+                                </div>
+                            </div>
+                            <div class="stage-name">
+                                {{stage.name}}
+                            </div>
+                            <div class="stage-roll">
+                                <button ng-click="rollStage()">ROLL</button>
+                            </div>
+                        </div>
+                        <div class="char">
+                            <div class="char-img">
+                                <img ng-src="img/characters/{{char2.img ? char2.img : 'default.png'}}" />
+                            </div>
+                            <div class="char-name">
+                                {{char2.name}}
+                            </div>
+                            <div class="char-roll">
+                                <button class="char-roll-btn" ng-click="rollChar2()">ROLL</button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="js/libs/angular.js/angular.js" type="text/javascript"></script>
+        <script src="js/libs/angular.js/angular-resource.js" type="text/javascript"></script>
+        <script src="js/libs/angular-ui/angular-ui.js" type="text/javascript"></script>
+        <script src="js/libs/angular-ui/angular-ui-ieshiv.js" type="text/javascript"></script>
+        <script src="js/libs/ui-bootstrap/ui-bootstrap.js" type="text/javascript"></script>
+        <script src="js/libs/jquery/jquery.js" type="text/javascript"></script>
+        <script src="js/libs/jqueryui/jquery-ui.js" type="text/javascript"></script>
+        <script src="js/jquery.mmenu.all.min.js" type="text/javascript"></script>
+        <script src="js/angular-toggle-switch.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+        
+        <!-- App and Ctrl -->
+        <script src="js/app/app.js" type="text/javascript"></script>
+        <script src="js/app/controller.js" type="text/javascript"></script>
+        
+    </body>
+</html>
